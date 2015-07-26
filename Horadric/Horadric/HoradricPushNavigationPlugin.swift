@@ -14,9 +14,18 @@ public class HoradricPushNavigationPlugin
     public var URLScheme: String { return "push" }
     
     public func handleNavigationAction(navigationAction: WKNavigationAction, forController controller: HoradricViewController, decisionHandler: (WKNavigationActionPolicy) -> Void) {
-        let nextHoradricViewController = HoradricViewController()
-        nextHoradricViewController.page = navigationAction.request.URL?.absoluteString?.stringByReplacingOccurrencesOfString("\(URLScheme)://", withString: "", options: nil, range: nil)
-        controller.showViewController(nextHoradricViewController, sender: self)
+        let newPage = navigationAction.request.URL?.absoluteString?.stringByReplacingOccurrencesOfString("\(URLScheme)://", withString: "", options: nil, range: nil)
+        
+        if let navController = controller.navigationController {
+            if newPage == "goback" {
+                navController.popViewControllerAnimated(true)
+            } else {
+                let nextHoradricViewController = HoradricViewController()
+                nextHoradricViewController.page = newPage
+                    navController.pushViewController(nextHoradricViewController, animated: true)
+            }
+        }
+        
         decisionHandler(.Cancel)
     }
 }

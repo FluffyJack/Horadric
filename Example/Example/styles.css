@@ -1,0 +1,13 @@
+body {
+    font-family: "HelveticaNeue", sans-serif;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    background-color: #337EFF;
+    border-radius: 3px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+}

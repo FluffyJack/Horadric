@@ -39,7 +39,7 @@ public class HoradricViewController: UIViewController, WKNavigationDelegate, WKU
     
     // MARK: - Lifecycle methods
     
-    func addScriptsToUserContentController(userContentController: WKUserContentController) {
+    public func addScriptsToUserContentController(userContentController: WKUserContentController) {
     }
     
     override public func loadView() {

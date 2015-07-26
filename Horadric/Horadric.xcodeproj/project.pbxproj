@@ -271,6 +271,7 @@
 		D7FF02F81B648DCC00EEFA1B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Prismatik;
 				TargetAttributes = {
