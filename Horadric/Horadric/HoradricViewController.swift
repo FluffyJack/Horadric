@@ -65,4 +65,13 @@ public class HoradricViewController: UIViewController, WKNavigationDelegate, WKU
         self.title = webView.title
     }
     
+    public func webView(webView: WKWebView, decidePolicyForNavigationAction navigationAction: WKNavigationAction, decisionHandler: (WKNavigationActionPolicy) -> Void) {
+        if let URLScheme = navigationAction.request.URL?.scheme {
+            if let registeredPlugin = HoradricConfigManager.sharedInstance.navigationPluginForURLScheme(URLScheme) {
+                registeredPlugin.handleNavigationAction(navigationAction, forController: self, decisionHandler: decisionHandler)
+            }
+        }
+        decisionHandler(.Allow)
+    }
+    
 }

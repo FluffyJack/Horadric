@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		D7383A581B6498B4007B6D72 /* HoradricViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7383A571B6498B4007B6D72 /* HoradricViewControllerTests.swift */; };
 		D7383A5B1B649A98007B6D72 /* MockUserContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7383A5A1B649A98007B6D72 /* MockUserContentController.swift */; };
+		D7383A5E1B649EE3007B6D72 /* HoradricConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7383A5D1B649EE3007B6D72 /* HoradricConfigManager.swift */; };
+		D7383A611B649F0E007B6D72 /* HoradricConfigManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7383A601B649F0E007B6D72 /* HoradricConfigManagerTests.swift */; };
+		D7383A631B649F41007B6D72 /* HoradricWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7383A621B649F41007B6D72 /* HoradricWebViewTests.swift */; };
+		D7383A651B64A0C9007B6D72 /* MockNavigationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7383A641B64A0C9007B6D72 /* MockNavigationPlugin.swift */; };
+		D7383A681B64A6FD007B6D72 /* HoradricPushNavigationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7383A671B64A6FD007B6D72 /* HoradricPushNavigationHandler.swift */; };
 		D7FF03071B648DCC00EEFA1B /* Horadric.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FF03061B648DCC00EEFA1B /* Horadric.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7FF030D1B648DCC00EEFA1B /* Horadric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7FF03011B648DCC00EEFA1B /* Horadric.framework */; };
 		D7FF03301B648F5B00EEFA1B /* HoradricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF032F1B648F5B00EEFA1B /* HoradricViewController.swift */; };
@@ -28,6 +33,11 @@
 /* Begin PBXFileReference section */
 		D7383A571B6498B4007B6D72 /* HoradricViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoradricViewControllerTests.swift; sourceTree = "<group>"; };
 		D7383A5A1B649A98007B6D72 /* MockUserContentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockUserContentController.swift; sourceTree = "<group>"; };
+		D7383A5D1B649EE3007B6D72 /* HoradricConfigManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoradricConfigManager.swift; sourceTree = "<group>"; };
+		D7383A601B649F0E007B6D72 /* HoradricConfigManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = HoradricConfigManagerTests.swift; sourceTree = "<group>"; };
+		D7383A621B649F41007B6D72 /* HoradricWebViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoradricWebViewTests.swift; sourceTree = "<group>"; };
+		D7383A641B64A0C9007B6D72 /* MockNavigationPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockNavigationPlugin.swift; sourceTree = "<group>"; };
+		D7383A671B64A6FD007B6D72 /* HoradricPushNavigationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoradricPushNavigationHandler.swift; sourceTree = "<group>"; };
 		D7FF03011B648DCC00EEFA1B /* Horadric.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Horadric.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FF03051B648DCC00EEFA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7FF03061B648DCC00EEFA1B /* Horadric.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Horadric.h; sourceTree = "<group>"; };
@@ -67,6 +77,7 @@
 		D7383A561B649884007B6D72 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D7383A621B649F41007B6D72 /* HoradricWebViewTests.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -75,8 +86,33 @@
 			isa = PBXGroup;
 			children = (
 				D7383A5A1B649A98007B6D72 /* MockUserContentController.swift */,
+				D7383A641B64A0C9007B6D72 /* MockNavigationPlugin.swift */,
 			);
 			name = Mocks;
+			sourceTree = "<group>";
+		};
+		D7383A5C1B649EC8007B6D72 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D7383A5D1B649EE3007B6D72 /* HoradricConfigManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		D7383A5F1B649EF5007B6D72 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D7383A601B649F0E007B6D72 /* HoradricConfigManagerTests.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		D7383A661B64A6E4007B6D72 /* Navigation Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				D7383A671B64A6FD007B6D72 /* HoradricPushNavigationHandler.swift */,
+			);
+			name = "Navigation Plugins";
 			sourceTree = "<group>";
 		};
 		D7FF02F71B648DCC00EEFA1B = {
@@ -100,6 +136,8 @@
 		D7FF03031B648DCC00EEFA1B /* Horadric */ = {
 			isa = PBXGroup;
 			children = (
+				D7383A661B64A6E4007B6D72 /* Navigation Plugins */,
+				D7383A5C1B649EC8007B6D72 /* Managers */,
 				D7FF032C1B648F1C00EEFA1B /* Controllers */,
 				D7FF032D1B648F2600EEFA1B /* Views */,
 				D7FF03331B64903400EEFA1B /* Other */,
@@ -119,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				D7383A591B649A81007B6D72 /* Mocks */,
+				D7383A5F1B649EF5007B6D72 /* Managers */,
 				D7383A551B64987E007B6D72 /* Controllers */,
 				D7383A561B649884007B6D72 /* Views */,
 				D7FF03111B648DCC00EEFA1B /* Supporting Files */,
@@ -266,8 +305,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7383A681B64A6FD007B6D72 /* HoradricPushNavigationHandler.swift in Sources */,
 				D7FF03301B648F5B00EEFA1B /* HoradricViewController.swift in Sources */,
 				D7FF03321B648F9500EEFA1B /* HoradricWebView.swift in Sources */,
+				D7383A5E1B649EE3007B6D72 /* HoradricConfigManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +317,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7383A5B1B649A98007B6D72 /* MockUserContentController.swift in Sources */,
+				D7383A631B649F41007B6D72 /* HoradricWebViewTests.swift in Sources */,
+				D7383A651B64A0C9007B6D72 /* MockNavigationPlugin.swift in Sources */,
 				D7383A581B6498B4007B6D72 /* HoradricViewControllerTests.swift in Sources */,
+				D7383A611B649F0E007B6D72 /* HoradricConfigManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
