@@ -9,16 +9,18 @@
 import Foundation
 import WebKit
 
-public protocol HoradricNavigationPlugin : NSObjectProtocol {
-    var URLScheme: String { get }
-    
-    func handleNavigationAction(navigationAction: WKNavigationAction, forController: HoradricViewController, decisionHandler: (WKNavigationActionPolicy)->Void)
-}
-
 public class HoradricConfigManager : NSObject {
     static public let sharedInstance = HoradricConfigManager()
     
     private var registeredNavigationPlugins: [String : HoradricNavigationPlugin] = [:]
+    
+    public override init() {
+        super.init()
+        
+        registerNavigationPlugin(HoradricPushNavigationPlugin())
+        registerNavigationPlugin(HoradricOpenModalPresentationNavigationPlugin())
+        registerNavigationPlugin(HoradricCloseModalPresentationNavigationPlugin())
+    }
     
     public func registerNavigationPlugin(navPlugin: HoradricNavigationPlugin) {
         registeredNavigationPlugins[navPlugin.URLScheme] = navPlugin
