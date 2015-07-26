@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "http://www.prismatik.com.au"
-  s.license      = "MIT (example)"
+  s.license      = { type: "MIT", file: "LICENSE" }
   s.author             = { "Jack Dean Watson-Hamblin" => "info@fluffyjack.com" }
   s.social_media_url   = "http://twitter.com/FluffyJack"
 
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/FluffyJack/Horadric.git", :tag => s.version }
 
   s.source_files  = "Horadric/**/*.{swift}"
-  s.exclude_files = "Horadric/Exclude"
+  s.exclude_files = "Horadric/Exclude", "Horadric/HoradricTests"
 
   s.framework  = "WebKit"
   s.requires_arc = true
