@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Horadric"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Combine your development skills to build something great"
 
   s.description  = <<-DESC
