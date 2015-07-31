@@ -1,0 +1,19 @@
+PODS:
+  - Horadric (0.0.4)
+  - WebPod (0.0.1)
+
+DEPENDENCIES:
+  - Horadric (from `../`)
+  - WebPod (from `../WebPod`)
+
+EXTERNAL SOURCES:
+  Horadric:
+    :path: "../"
+  WebPod:
+    :path: "../WebPod"
+
+SPEC CHECKSUMS:
+  Horadric: c3818918edfd8d96ff14ae5790873491ab9b3d7a
+  WebPod: 8258862594376f100cdaee1e3e97e439908cb97e
+
+COCOAPODS: 0.38.2

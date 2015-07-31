@@ -1,0 +1,6 @@
+framework module Horadric {
+  umbrella header "Horadric-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'HoradricExample' do
+  pod 'Horadric', path: '../'
+  pod 'WebPod', path: '../WebPod'
+end
+
+target 'HoradricExampleTests' do
+  pod 'Horadric', path: '../'
+  pod 'WebPod', path: '../WebPod'
+end
+

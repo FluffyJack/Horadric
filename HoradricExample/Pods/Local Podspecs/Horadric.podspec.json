@@ -1,0 +1,29 @@
+{
+  "name": "Horadric",
+  "version": "0.0.4",
+  "summary": "Combine your development skills to build something great",
+  "description": "A longer description of Horadric in Markdown format.\n\n* Think: Why did you write this? What is the focus? What does it do?\n* CocoaPods will be using this to generate tags, and improve search results.\n* Try to keep it short, snappy and to the point.\n* Finally, don't worry about the indent, CocoaPods strips it!",
+  "homepage": "http://www.prismatik.com.au",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jack Dean Watson-Hamblin": "info@fluffyjack.com"
+  },
+  "social_media_url": "http://twitter.com/FluffyJack",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/FluffyJack/Horadric.git",
+    "tag": "0.0.4"
+  },
+  "source_files": "Horadric/**/*.{swift}",
+  "exclude_files": [
+    "Horadric/Exclude",
+    "Horadric/HoradricTests"
+  ],
+  "frameworks": "WebKit",
+  "requires_arc": true
+}
