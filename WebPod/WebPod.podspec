@@ -110,7 +110,7 @@ Pod::Spec.new do |s|
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
   s.resource_bundle = {
-    "WebPod" => "./**/*.*"
+    "WebPod" => "build/**/*.*"
   }
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

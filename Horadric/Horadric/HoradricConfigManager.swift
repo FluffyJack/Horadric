@@ -12,7 +12,8 @@ import WebKit
 public class HoradricConfigManager : NSObject {
     static public let sharedInstance = HoradricConfigManager()
     
-    private var registeredNavigationPlugins: [String : HoradricNavigationPlugin] = [:]
+    internal var registeredNavigationPlugins: [String : HoradricNavigationPlugin] = [:]
+    internal var registeredWebBundles: [NSBundle] = []
     
     public override init() {
         super.init()
@@ -22,11 +23,19 @@ public class HoradricConfigManager : NSObject {
         registerNavigationPlugin(HoradricCloseModalPresentationNavigationPlugin())
     }
     
+    // MARK: - Navigation plugin management
+    
     public func registerNavigationPlugin(navPlugin: HoradricNavigationPlugin) {
         registeredNavigationPlugins[navPlugin.URLScheme] = navPlugin
     }
     
     public func navigationPluginForURLScheme(URLScheme: String) -> HoradricNavigationPlugin? {
         return registeredNavigationPlugins[URLScheme]
+    }
+    
+    // MARK: - Web resource bundle management
+    
+    public func registerWebBundle(bundle: NSBundle) {
+        registeredWebBundles.append(bundle)
     }
 }

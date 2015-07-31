@@ -13,6 +13,6 @@
     "tag": "0.0.1"
   },
   "resource_bundles": {
-    "WebPod": "./**/*.*"
+    "WebPod": "build/**/*.*"
   }
 }

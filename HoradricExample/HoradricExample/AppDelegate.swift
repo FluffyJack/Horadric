@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Horadric
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        if let bundleURL = NSBundle.mainBundle().URLForResource("WebPod", withExtension: "bundle") {
+            if let bundle = NSBundle(URL: bundleURL) {
+                HoradricConfigManager.sharedInstance.registerWebBundle(bundle)
+            }
+        }
+        
         return true
     }
 
