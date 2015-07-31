@@ -12,7 +12,8 @@
     "git": "http://EXAMPLE/WebPod.git",
     "tag": "0.0.1"
   },
+  "preserve_paths": "build",
   "resource_bundles": {
-    "WebPod": "build/**/*.*"
+    "WebPod": "build/*"
   }
 }
