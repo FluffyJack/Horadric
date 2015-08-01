@@ -12,7 +12,8 @@ import WebKit
 @IBDesignable
 public class HoradricViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
     
-    @IBInspectable var page: String?
+    @IBInspectable var file: String?
+    @IBInspectable var directory: String?
     
     public var webView: HoradricWebView!
     
@@ -54,8 +55,8 @@ public class HoradricViewController: UIViewController, WKNavigationDelegate, WKU
     override public func viewDidLoad() {
         super.viewDidLoad()
         
-        if let startingPage = page {
-            webView.loadPage(startingPage)
+        if let startingFile = file {
+            webView.loadFile(startingFile.stringByDeletingPathExtension, withExtension: startingFile.pathExtension, directory: directory)
         }
     }
     

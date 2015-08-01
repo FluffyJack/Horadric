@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D7383A711B64AF67007B6D72 /* modal.html in Resources */ = {isa = PBXBuildFile; fileRef = D7383A701B64AF67007B6D72 /* modal.html */; };
-		D7A2C5F01B64C735002C4387 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = D7A2C5EF1B64C735002C4387 /* styles.css */; };
 		D7FF02D81B648D8C00EEFA1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF02D71B648D8C00EEFA1B /* AppDelegate.swift */; };
 		D7FF02DA1B648D8C00EEFA1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF02D91B648D8C00EEFA1B /* ViewController.swift */; };
 		D7FF02DD1B648D8C00EEFA1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FF02DB1B648D8C00EEFA1B /* Main.storyboard */; };
@@ -16,7 +14,6 @@
 		D7FF02E21B648D8C00EEFA1B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7FF02E01B648D8C00EEFA1B /* LaunchScreen.xib */; };
 		D7FF02EE1B648D8C00EEFA1B /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF02ED1B648D8C00EEFA1B /* ExampleTests.swift */; };
 		D7FF03291B648E8700EEFA1B /* Horadric.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D7FF03251B648E5200EEFA1B /* Horadric.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D7FF03361B64907600EEFA1B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = D7FF03351B64907600EEFA1B /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +62,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D7383A701B64AF67007B6D72 /* modal.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = modal.html; sourceTree = "<group>"; };
-		D7A2C5EF1B64C735002C4387 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
 		D7FF02D21B648D8C00EEFA1B /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FF02D61B648D8C00EEFA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7FF02D71B648D8C00EEFA1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,7 +73,6 @@
 		D7FF02EC1B648D8C00EEFA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7FF02ED1B648D8C00EEFA1B /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
 		D7FF031F1B648E5200EEFA1B /* Horadric.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Horadric.xcodeproj; path = ../Horadric/Horadric.xcodeproj; sourceTree = "<group>"; };
-		D7FF03351B64907600EEFA1B /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,9 +163,6 @@
 		D7FF03341B64906600EEFA1B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D7FF03351B64907600EEFA1B /* index.html */,
-				D7383A701B64AF67007B6D72 /* modal.html */,
-				D7A2C5EF1B64C735002C4387 /* styles.css */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -283,9 +274,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7FF02DD1B648D8C00EEFA1B /* Main.storyboard in Resources */,
-				D7FF03361B64907600EEFA1B /* index.html in Resources */,
-				D7383A711B64AF67007B6D72 /* modal.html in Resources */,
-				D7A2C5F01B64C735002C4387 /* styles.css in Resources */,
 				D7FF02E21B648D8C00EEFA1B /* LaunchScreen.xib in Resources */,
 				D7FF02DF1B648D8C00EEFA1B /* Images.xcassets in Resources */,
 			);

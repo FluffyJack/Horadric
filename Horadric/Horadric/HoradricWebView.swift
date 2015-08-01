@@ -10,12 +10,12 @@ import UIKit
 import WebKit
 
 public class HoradricWebView: WKWebView {
-    public func loadPage(page: String) {
+    public func loadFile(fileName: String, withExtension fileExtension: String, directory: String?) {
         
         let bundles = HoradricConfigManager.sharedInstance.registeredWebBundles
 
         for bundle in bundles {
-            if let pageURL = bundle.URLForResource(page, withExtension: "html") {
+            if let pageURL = bundle.URLForResource(fileName, withExtension: fileExtension, subdirectory: directory) {
                 self.loadRequest(NSURLRequest(URL: pageURL))
             }
         }

@@ -14,7 +14,8 @@ public class HoradricOpenModalPresentationNavigationPlugin : NSObject, HoradricN
     
     public func handleNavigationAction(navigationAction: WKNavigationAction, forController controller: HoradricViewController, decisionHandler: (WKNavigationActionPolicy) -> Void) {
         let nextHoradricViewController = HoradricViewController()
-        nextHoradricViewController.page = navigationAction.request.URL?.absoluteString?.stringByReplacingOccurrencesOfString("\(URLScheme)://", withString: "", options: nil, range: nil)
+        nextHoradricViewController.file = navigationAction.request.URL?.lastPathComponent
+        nextHoradricViewController.directory = navigationAction.request.URL?.simplePath
         controller.presentViewController(nextHoradricViewController, animated: true, completion: nil)
         decisionHandler(.Cancel)
     }

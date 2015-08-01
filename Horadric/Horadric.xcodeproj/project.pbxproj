@@ -17,6 +17,7 @@
 		D7383A6B1B64ADF7007B6D72 /* HoradricNavigationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7383A6A1B64ADF7007B6D72 /* HoradricNavigationPlugin.swift */; };
 		D7383A6D1B64AE41007B6D72 /* HoradricOpenModalPresentationNavigationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7383A6C1B64AE41007B6D72 /* HoradricOpenModalPresentationNavigationPlugin.swift */; };
 		D7383A6F1B64AF06007B6D72 /* HoradricCloseModalPresentationNavigationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7383A6E1B64AF06007B6D72 /* HoradricCloseModalPresentationNavigationPlugin.swift */; };
+		D78F9E731B6C4B440074E048 /* NSURL+PathOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78F9E721B6C4B440074E048 /* NSURL+PathOnly.swift */; };
 		D7FF03071B648DCC00EEFA1B /* Horadric.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FF03061B648DCC00EEFA1B /* Horadric.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7FF030D1B648DCC00EEFA1B /* Horadric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7FF03011B648DCC00EEFA1B /* Horadric.framework */; };
 		D7FF03301B648F5B00EEFA1B /* HoradricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF032F1B648F5B00EEFA1B /* HoradricViewController.swift */; };
@@ -44,6 +45,7 @@
 		D7383A6A1B64ADF7007B6D72 /* HoradricNavigationPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoradricNavigationPlugin.swift; sourceTree = "<group>"; };
 		D7383A6C1B64AE41007B6D72 /* HoradricOpenModalPresentationNavigationPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoradricOpenModalPresentationNavigationPlugin.swift; sourceTree = "<group>"; };
 		D7383A6E1B64AF06007B6D72 /* HoradricCloseModalPresentationNavigationPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoradricCloseModalPresentationNavigationPlugin.swift; sourceTree = "<group>"; };
+		D78F9E721B6C4B440074E048 /* NSURL+PathOnly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURL+PathOnly.swift"; sourceTree = "<group>"; };
 		D7FF03011B648DCC00EEFA1B /* Horadric.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Horadric.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FF03051B648DCC00EEFA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7FF03061B648DCC00EEFA1B /* Horadric.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Horadric.h; sourceTree = "<group>"; };
@@ -131,6 +133,14 @@
 			name = Protocols;
 			sourceTree = "<group>";
 		};
+		D78F9E711B6C4B200074E048 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D78F9E721B6C4B440074E048 /* NSURL+PathOnly.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		D7FF02F71B648DCC00EEFA1B = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +162,7 @@
 		D7FF03031B648DCC00EEFA1B /* Horadric */ = {
 			isa = PBXGroup;
 			children = (
+				D78F9E711B6C4B200074E048 /* Extensions */,
 				D7383A691B64ADE3007B6D72 /* Protocols */,
 				D7383A661B64A6E4007B6D72 /* Navigation Plugins */,
 				D7383A5C1B649EC8007B6D72 /* Managers */,
@@ -328,6 +339,7 @@
 				D7383A6D1B64AE41007B6D72 /* HoradricOpenModalPresentationNavigationPlugin.swift in Sources */,
 				D7383A6F1B64AF06007B6D72 /* HoradricCloseModalPresentationNavigationPlugin.swift in Sources */,
 				D7383A6B1B64ADF7007B6D72 /* HoradricNavigationPlugin.swift in Sources */,
+				D78F9E731B6C4B440074E048 /* NSURL+PathOnly.swift in Sources */,
 				D7FF03321B648F9500EEFA1B /* HoradricWebView.swift in Sources */,
 				D7383A5E1B649EE3007B6D72 /* HoradricConfigManager.swift in Sources */,
 			);

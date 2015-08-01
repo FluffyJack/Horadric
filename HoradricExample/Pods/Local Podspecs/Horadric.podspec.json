@@ -1,6 +1,6 @@
 {
   "name": "Horadric",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "summary": "Combine your development skills to build something great",
   "description": "A longer description of Horadric in Markdown format.\n\n* Think: Why did you write this? What is the focus? What does it do?\n* CocoaPods will be using this to generate tags, and improve search results.\n* Try to keep it short, snappy and to the point.\n* Finally, don't worry about the indent, CocoaPods strips it!",
   "homepage": "http://www.prismatik.com.au",
@@ -17,7 +17,7 @@
   },
   "source": {
     "git": "https://github.com/FluffyJack/Horadric.git",
-    "tag": "0.0.4"
+    "tag": "0.0.5"
   },
   "source_files": "Horadric/**/*.{swift}",
   "exclude_files": [

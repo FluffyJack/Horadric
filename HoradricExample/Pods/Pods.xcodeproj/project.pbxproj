@@ -7,120 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11E3B259C4F54E499C5B02D2F3DA8A7B /* HoradricPushNavigationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE5EFA699160221C0524D2BBDFF157 /* HoradricPushNavigationPlugin.swift */; };
-		12754AA667DB81310420526590F2CE86 /* HoradricOpenModalPresentationNavigationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65402B1BB0B7A064C7C91D504CD725 /* HoradricOpenModalPresentationNavigationPlugin.swift */; };
-		3556D2D1E9F85CE477BC2FD58A11F2AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9C27D07FC6FB4C41CBC6872F8B8B63 /* Foundation.framework */; };
+		3556D2D1E9F85CE477BC2FD58A11F2AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BABBB7BF69427715C71EC69B21F6869 /* Foundation.framework */; };
 		3630CD9C79B7B464C60329C216E3766E /* Pods-HoradricExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79645F0B5C2F851C4375C22659715151 /* Pods-HoradricExampleTests-dummy.m */; };
-		37895E0439096110A266AC92858DFD78 /* Horadric-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9BA30D45A7C127ABD37DE49B9A6030 /* Horadric-dummy.m */; };
 		3E586B029B2D2DE3A3B3866EE281F469 /* Pods-HoradricExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9165D4D41D8E8AB8FEC6B34A2BC6B6 /* Pods-HoradricExample-dummy.m */; };
-		5BB25FDAC41F060EE85794E2BB610210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9C27D07FC6FB4C41CBC6872F8B8B63 /* Foundation.framework */; };
+		4002729075435AB682BB6FDB3774A622 /* HoradricNavigationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15330401154D53AE082D2FAED0BCC15 /* HoradricNavigationPlugin.swift */; };
+		4487D32973F0930E183ECC77586F5A21 /* NSURL+PathOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60DF851565FD3E27EBF8F61EF547559 /* NSURL+PathOnly.swift */; };
+		49011FB7D79A7D8A22DA8C635FA2CC9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BABBB7BF69427715C71EC69B21F6869 /* Foundation.framework */; };
+		501F6AE813D6C8B43739634362281006 /* HoradricOpenModalPresentationNavigationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3FA5D5631A0999CBAC61970C2A8CD /* HoradricOpenModalPresentationNavigationPlugin.swift */; };
+		5BB25FDAC41F060EE85794E2BB610210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BABBB7BF69427715C71EC69B21F6869 /* Foundation.framework */; };
+		630D41DA40A4127FECC9796A7AEB3CA4 /* HoradricPushNavigationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC26D0FF2D02976461DB3C14273A8D4 /* HoradricPushNavigationPlugin.swift */; };
 		6869672BC28B8EBF36CB79ACB26A9ADA /* Pods-HoradricExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51965613B167E8764EEB0263C9BB3AFE /* Pods-HoradricExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D01AB4E329AB8E9B23DA987CBB8BCC7 /* Pods-HoradricExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3687DA30FA6FDAFB9ABB82485F0C97F /* Pods-HoradricExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		725E57240A6403582F203EE3E124B5D9 /* HoradricNavigationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC41DD45CD66EAA0AE471BF8A9780D /* HoradricNavigationPlugin.swift */; };
-		8730A09386FCD2813CCBA5F6F0E5011C /* Horadric-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5D42938BBED72B38EFB3F17C7B80DA /* Horadric-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9789EED07A0E5FD39E40561F0CFA945A /* HoradricConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F796D7A3F565348A1B9318745C49EAF /* HoradricConfigManager.swift */; };
-		AF56DA688AD34DB0025E0E541C4780D7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156597E2BABA1509DD21F1C89702FEE0 /* WebKit.framework */; };
-		B422E92812CBC978EE4F47DAA8981C19 /* HoradricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026BA68E93387519676CC6E319BDC3EB /* HoradricViewController.swift */; };
-		BA671F8F8663BEE0FFA84351A66A06AD /* styles in Resources */ = {isa = PBXBuildFile; fileRef = C15A256C208AB0B399628C0C8BBBCD53 /* styles */; };
-		BA84EED692FE1B8E66ECAD60B6661759 /* HoradricWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76724ABB630438004A660114FD9A915 /* HoradricWebView.swift */; };
-		CEA89BEA73FA7D17F7141C5553D4D55B /* modal.html in Resources */ = {isa = PBXBuildFile; fileRef = D657677ED887AADF619432AD35DADCAF /* modal.html */; };
-		DA879C489DD7B282A57D101F7E104425 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9C27D07FC6FB4C41CBC6872F8B8B63 /* Foundation.framework */; };
-		E26466EC98C5053CBF317B2F714D8C34 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 513AFA44255595236E7E49E5A66BE729 /* index.html */; };
-		EFDA1FB93DEA4260359B3216E439EC83 /* HoradricCloseModalPresentationNavigationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45F1A0E74272902B3C4148087D2B45C /* HoradricCloseModalPresentationNavigationPlugin.swift */; };
+		700C1739EF30066622389059414D95D1 /* modal.html in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0579FB840EFE95A0E544ACB67E071 /* modal.html */; };
+		78852D03FC73224659035EA7A7C47B1C /* Horadric-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C08BB3CEB2C490EE0CDC9DFEE0E42CF /* Horadric-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8865565865AFD8CC701D06BDF6BE64B0 /* HoradricConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11D57F7237562CB39A0373D2DECF4BB /* HoradricConfigManager.swift */; };
+		918216FE4AFBD8782DECCBBBDE0697A6 /* HoradricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557A28F373C4FA3B99AF4327D3BC012 /* HoradricViewController.swift */; };
+		96890A90BE4CA4125BF114CC5650F545 /* styles in Resources */ = {isa = PBXBuildFile; fileRef = 8007AF50C4938ACC5B4628C46E077E5A /* styles */; };
+		98D5FF07603C10ED955AD9BD1BE5B58A /* HoradricWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB92A044E85952E9ECA798DDADA17A00 /* HoradricWebView.swift */; };
+		9E027E3E3F960CD5E25B54BE0692E466 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482115F107F2830D00B9C8AAE951C0F9 /* WebKit.framework */; };
+		A258879AE0714FD3388374DFCE8AEE63 /* HoradricCloseModalPresentationNavigationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09679FABB5D8BE352FABB4DD61EF0E5 /* HoradricCloseModalPresentationNavigationPlugin.swift */; };
+		BDA8148508EABCB7920ACD3230692679 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 7210092BC4E2EC5CA80070C0D62DA9CC /* index.html */; };
+		C041896FD678449BA2DE7BACEEFB53AF /* subcontent in Resources */ = {isa = PBXBuildFile; fileRef = 47266DFC2C7B6B4C421E221B3A07F93F /* subcontent */; };
+		EF6E911D93A75B9A70D555EE2E746968 /* Horadric-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA66733EA81DD2F6821145334F0203C4 /* Horadric-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5D7F63A765EE477EB18EB4098B48F9DB /* PBXContainerItemProxy */ = {
+		2693BBE5D2821839C0FC6B671B5616BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 75E9C2ABE25C67B7A4F90B6E35349AE5;
-			remoteInfo = "WebPod-WebPod";
-		};
-		6EBE911A9EC9E8CC23BF43DC76EFBF86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 75E9C2ABE25C67B7A4F90B6E35349AE5;
-			remoteInfo = "WebPod-WebPod";
-		};
-		9FCEB7A59CB76D6EC2406D38F90DDD88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CBF3A6D3B6BCE48C414C5A78869CD929;
+			remoteGlobalIDString = 32D549460BFBECDA54773F5F8D432C8B;
 			remoteInfo = Horadric;
 		};
-		D2A4DEC8A7F8019B6750A7758A5C4F66 /* PBXContainerItemProxy */ = {
+		365D87C3847C56DDFD8C06207713E4FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CBF3A6D3B6BCE48C414C5A78869CD929;
+			remoteGlobalIDString = D94EFD42D9D748DC334B186F8C803C77;
+			remoteInfo = "WebPod-WebPod";
+		};
+		3756071AC879D3EC97F6D70172C5E789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D94EFD42D9D748DC334B186F8C803C77;
+			remoteInfo = "WebPod-WebPod";
+		};
+		5EECEF023585A891BEA2C5B7FA4F33F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D549460BFBECDA54773F5F8D432C8B;
 			remoteInfo = Horadric;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		026BA68E93387519676CC6E319BDC3EB /* HoradricViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HoradricViewController.swift; sourceTree = "<group>"; };
+		0102C7C8BB3A96360EC871576B78E9DF /* WebPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		0682BEF4536BB12F1A7E1694B364E64C /* Horadric.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Horadric.xcconfig; sourceTree = "<group>"; };
 		0BBF362C45BF27278386FF2D76A84740 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DB9D030A9455AC03ECBDC6E831C561C /* Pods-HoradricExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoradricExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		156597E2BABA1509DD21F1C89702FEE0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		1624FBB3821DF5958FA1965BB15C1109 /* Pods-HoradricExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoradricExample.debug.xcconfig"; sourceTree = "<group>"; };
-		1A9C27D07FC6FB4C41CBC6872F8B8B63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1C96B28C953B473A959F9E5BE178C4C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2557A28F373C4FA3B99AF4327D3BC012 /* HoradricViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HoradricViewController.swift; sourceTree = "<group>"; };
 		31AB1934D31F8DCAC0A56FA8C48BF1A2 /* Pods-HoradricExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HoradricExampleTests-resources.sh"; sourceTree = "<group>"; };
 		3345943ED32617BC77BF56497E7944C2 /* Pods-HoradricExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HoradricExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4C65402B1BB0B7A064C7C91D504CD725 /* HoradricOpenModalPresentationNavigationPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HoradricOpenModalPresentationNavigationPlugin.swift; sourceTree = "<group>"; };
-		4F9BA30D45A7C127ABD37DE49B9A6030 /* Horadric-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Horadric-dummy.m"; sourceTree = "<group>"; };
-		513AFA44255595236E7E49E5A66BE729 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		47266DFC2C7B6B4C421E221B3A07F93F /* subcontent */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = subcontent; sourceTree = "<group>"; };
+		482115F107F2830D00B9C8AAE951C0F9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		4BABBB7BF69427715C71EC69B21F6869 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4C4B766B16586473DC213E3B3319F4DC /* Horadric.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Horadric.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5148B8678AF2FC7AA6304B62C97EEA73 /* Pods-HoradricExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HoradricExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		51965613B167E8764EEB0263C9BB3AFE /* Pods-HoradricExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HoradricExample-umbrella.h"; sourceTree = "<group>"; };
 		586F95A68CF16067F90276DA42E29E1A /* Pods-HoradricExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HoradricExampleTests.modulemap"; sourceTree = "<group>"; };
-		5F796D7A3F565348A1B9318745C49EAF /* HoradricConfigManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HoradricConfigManager.swift; sourceTree = "<group>"; };
 		6364A2563A1B543BA3813E69B369BA54 /* Pods-HoradricExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HoradricExample-resources.sh"; sourceTree = "<group>"; };
+		6CF0579FB840EFE95A0E544ACB67E071 /* modal.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; path = modal.html; sourceTree = "<group>"; };
 		6E3D4D25B84996D3FF44B621E88C9544 /* Pods-HoradricExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HoradricExample-frameworks.sh"; sourceTree = "<group>"; };
+		6FC26D0FF2D02976461DB3C14273A8D4 /* HoradricPushNavigationPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HoradricPushNavigationPlugin.swift; sourceTree = "<group>"; };
+		7210092BC4E2EC5CA80070C0D62DA9CC /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		75CAE76A1F11352DBF709C56F0B10B79 /* Horadric-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Horadric-prefix.pch"; sourceTree = "<group>"; };
 		7913F6741D9303E70FE227D9BB9D512B /* Pods-HoradricExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HoradricExampleTests-frameworks.sh"; sourceTree = "<group>"; };
 		79645F0B5C2F851C4375C22659715151 /* Pods-HoradricExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HoradricExampleTests-dummy.m"; sourceTree = "<group>"; };
-		7B5D42938BBED72B38EFB3F17C7B80DA /* Horadric-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Horadric-umbrella.h"; sourceTree = "<group>"; };
 		7E9165D4D41D8E8AB8FEC6B34A2BC6B6 /* Pods-HoradricExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HoradricExample-dummy.m"; sourceTree = "<group>"; };
 		7F5218A485C21914C9D1544A35B1E4F3 /* Pods-HoradricExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoradricExample.release.xcconfig"; sourceTree = "<group>"; };
+		8007AF50C4938ACC5B4628C46E077E5A /* styles */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = styles; sourceTree = "<group>"; };
 		831243DCFEDB51D60C69EBF83B33C7F2 /* Pods-HoradricExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HoradricExample.modulemap"; sourceTree = "<group>"; };
-		83ED4806AF909083D193E0934AEDD896 /* WebPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FDC41DD45CD66EAA0AE471BF8A9780D /* HoradricNavigationPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HoradricNavigationPlugin.swift; sourceTree = "<group>"; };
-		A07C3549FF84FBF3AEF2CBE52A4F11C4 /* Horadric-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Horadric-Private.xcconfig"; sourceTree = "<group>"; };
-		A45F1A0E74272902B3C4148087D2B45C /* HoradricCloseModalPresentationNavigationPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HoradricCloseModalPresentationNavigationPlugin.swift; sourceTree = "<group>"; };
+		9C08BB3CEB2C490EE0CDC9DFEE0E42CF /* Horadric-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Horadric-umbrella.h"; sourceTree = "<group>"; };
+		A09679FABB5D8BE352FABB4DD61EF0E5 /* HoradricCloseModalPresentationNavigationPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HoradricCloseModalPresentationNavigationPlugin.swift; sourceTree = "<group>"; };
+		A11D57F7237562CB39A0373D2DECF4BB /* HoradricConfigManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HoradricConfigManager.swift; sourceTree = "<group>"; };
+		A15330401154D53AE082D2FAED0BCC15 /* HoradricNavigationPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HoradricNavigationPlugin.swift; sourceTree = "<group>"; };
 		A5FDC7CA447DC47320AF47E1E700043E /* Horadric.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Horadric.modulemap; sourceTree = "<group>"; };
-		A76724ABB630438004A660114FD9A915 /* HoradricWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HoradricWebView.swift; sourceTree = "<group>"; };
+		AE84C967AADFE9042549B15E97148C29 /* Horadric-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Horadric-Private.xcconfig"; sourceTree = "<group>"; };
+		AFC3FA5D5631A0999CBAC61970C2A8CD /* HoradricOpenModalPresentationNavigationPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HoradricOpenModalPresentationNavigationPlugin.swift; sourceTree = "<group>"; };
 		AFCEF740EE3283F3EECCC6DF7A2AA6B6 /* Pods-HoradricExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HoradricExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		B871422838A5BA0E549B90EB4FAD3351 /* Pods_HoradricExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoradricExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF8681D2B28A7CB94015958452F432BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C15A256C208AB0B399628C0C8BBBCD53 /* styles */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = styles; sourceTree = "<group>"; };
 		CD27ECF2D56A4E35E69A6FD754242161 /* Pods-HoradricExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoradricExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		D657677ED887AADF619432AD35DADCAF /* modal.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; path = modal.html; sourceTree = "<group>"; };
-		DCBE5EFA699160221C0524D2BBDFF157 /* HoradricPushNavigationPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HoradricPushNavigationPlugin.swift; sourceTree = "<group>"; };
+		DB92A044E85952E9ECA798DDADA17A00 /* HoradricWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HoradricWebView.swift; sourceTree = "<group>"; };
 		DD248B850EFB554AA2CC780156F34134 /* Pods-HoradricExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HoradricExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DF3FDB75443B142AFB3A2B1BAD234B2C /* Pods_HoradricExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoradricExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3687DA30FA6FDAFB9ABB82485F0C97F /* Pods-HoradricExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HoradricExampleTests-umbrella.h"; sourceTree = "<group>"; };
-		F832DBE42A955473884462082B614154 /* Horadric.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Horadric.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60DF851565FD3E27EBF8F61EF547559 /* NSURL+PathOnly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSURL+PathOnly.swift"; sourceTree = "<group>"; };
+		FA66733EA81DD2F6821145334F0203C4 /* Horadric-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Horadric-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B32ADEFD82ADC3EB9EA7ACE9D0E5794 /* Frameworks */ = {
+		00AB4E63C0FC80E710332F14A2B72265 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA879C489DD7B282A57D101F7E104425 /* Foundation.framework in Frameworks */,
-				AF56DA688AD34DB0025E0E541C4780D7 /* WebKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A6DF69447FAA7D733103D6A04A580FA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				49011FB7D79A7D8A22DA8C635FA2CC9B /* Foundation.framework in Frameworks */,
+				9E027E3E3F960CD5E25B54BE0692E466 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +126,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3556D2D1E9F85CE477BC2FD58A11F2AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38BE48252D2FCDB5F31884A0DFD3F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,16 +174,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		21D3A03DFEBECD3B2721E66915F98BDD /* Horadric */ = {
+		2DFBBF8EC0F07CA07ABF5C4EE3DD60AA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A45F1A0E74272902B3C4148087D2B45C /* HoradricCloseModalPresentationNavigationPlugin.swift */,
-				5F796D7A3F565348A1B9318745C49EAF /* HoradricConfigManager.swift */,
-				9FDC41DD45CD66EAA0AE471BF8A9780D /* HoradricNavigationPlugin.swift */,
-				4C65402B1BB0B7A064C7C91D504CD725 /* HoradricOpenModalPresentationNavigationPlugin.swift */,
-				DCBE5EFA699160221C0524D2BBDFF157 /* HoradricPushNavigationPlugin.swift */,
-				026BA68E93387519676CC6E319BDC3EB /* HoradricViewController.swift */,
-				A76724ABB630438004A660114FD9A915 /* HoradricWebView.swift */,
+				9102401026FF7380B58B30CFCB1520D3 /* build */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3C85E1410BA1F28C83D9D8EF4F02BC04 /* Horadric */ = {
+			isa = PBXGroup;
+			children = (
+				A09679FABB5D8BE352FABB4DD61EF0E5 /* HoradricCloseModalPresentationNavigationPlugin.swift */,
+				A11D57F7237562CB39A0373D2DECF4BB /* HoradricConfigManager.swift */,
+				A15330401154D53AE082D2FAED0BCC15 /* HoradricNavigationPlugin.swift */,
+				AFC3FA5D5631A0999CBAC61970C2A8CD /* HoradricOpenModalPresentationNavigationPlugin.swift */,
+				6FC26D0FF2D02976461DB3C14273A8D4 /* HoradricPushNavigationPlugin.swift */,
+				2557A28F373C4FA3B99AF4327D3BC012 /* HoradricViewController.swift */,
+				DB92A044E85952E9ECA798DDADA17A00 /* HoradricWebView.swift */,
+				F60DF851565FD3E27EBF8F61EF547559 /* NSURL+PathOnly.swift */,
 			);
 			path = Horadric;
 			sourceTree = "<group>";
@@ -187,8 +200,8 @@
 		3CB8B34A41E22ED51FC549692C092E1C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				1A9C27D07FC6FB4C41CBC6872F8B8B63 /* Foundation.framework */,
-				156597E2BABA1509DD21F1C89702FEE0 /* WebKit.framework */,
+				4BABBB7BF69427715C71EC69B21F6869 /* Foundation.framework */,
+				482115F107F2830D00B9C8AAE951C0F9 /* WebKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -196,7 +209,7 @@
 		42A8B944030D369541E5DA4CB64041DF /* WebPod */ = {
 			isa = PBXGroup;
 			children = (
-				99C06A4EE06058AD46677A0385DA3AAF /* Resources */,
+				2DFBBF8EC0F07CA07ABF5C4EE3DD60AA /* Resources */,
 			);
 			name = WebPod;
 			path = ../../WebPod;
@@ -208,24 +221,6 @@
 				3CB8B34A41E22ED51FC549692C092E1C /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		52D2330BC1161EEBB1CBC3D9FF86480A /* build */ = {
-			isa = PBXGroup;
-			children = (
-				513AFA44255595236E7E49E5A66BE729 /* index.html */,
-				D657677ED887AADF619432AD35DADCAF /* modal.html */,
-				C15A256C208AB0B399628C0C8BBBCD53 /* styles */,
-			);
-			path = build;
-			sourceTree = "<group>";
-		};
-		5817C254EC5C4B8BE49AE7814CCEDDE4 /* Horadric */ = {
-			isa = PBXGroup;
-			children = (
-				21D3A03DFEBECD3B2721E66915F98BDD /* Horadric */,
-			);
-			path = Horadric;
 			sourceTree = "<group>";
 		};
 		7788D5C70810AF156E8100A06CEA6DBA /* Pods-HoradricExample */ = {
@@ -257,6 +252,17 @@
 			);
 			sourceTree = "<group>";
 		};
+		9102401026FF7380B58B30CFCB1520D3 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				7210092BC4E2EC5CA80070C0D62DA9CC /* index.html */,
+				6CF0579FB840EFE95A0E544ACB67E071 /* modal.html */,
+				8007AF50C4938ACC5B4628C46E077E5A /* styles */,
+				47266DFC2C7B6B4C421E221B3A07F93F /* subcontent */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
 		95329FCEE969773658B35758F149DDAA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,12 +272,12 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		99C06A4EE06058AD46677A0385DA3AAF /* Resources */ = {
+		AA0D85A5B4AD1F7433FDB25EFC82EC0A /* Horadric */ = {
 			isa = PBXGroup;
 			children = (
-				52D2330BC1161EEBB1CBC3D9FF86480A /* build */,
+				3C85E1410BA1F28C83D9D8EF4F02BC04 /* Horadric */,
 			);
-			name = Resources;
+			path = Horadric;
 			sourceTree = "<group>";
 		};
 		AF5DB0452A2C965D96655B692A0112DA /* Support Files */ = {
@@ -279,10 +285,10 @@
 			children = (
 				A5FDC7CA447DC47320AF47E1E700043E /* Horadric.modulemap */,
 				0682BEF4536BB12F1A7E1694B364E64C /* Horadric.xcconfig */,
-				A07C3549FF84FBF3AEF2CBE52A4F11C4 /* Horadric-Private.xcconfig */,
-				4F9BA30D45A7C127ABD37DE49B9A6030 /* Horadric-dummy.m */,
+				AE84C967AADFE9042549B15E97148C29 /* Horadric-Private.xcconfig */,
+				FA66733EA81DD2F6821145334F0203C4 /* Horadric-dummy.m */,
 				75CAE76A1F11352DBF709C56F0B10B79 /* Horadric-prefix.pch */,
-				7B5D42938BBED72B38EFB3F17C7B80DA /* Horadric-umbrella.h */,
+				9C08BB3CEB2C490EE0CDC9DFEE0E42CF /* Horadric-umbrella.h */,
 				1C96B28C953B473A959F9E5BE178C4C8 /* Info.plist */,
 			);
 			name = "Support Files";
@@ -292,10 +298,10 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F832DBE42A955473884462082B614154 /* Horadric.framework */,
+				4C4B766B16586473DC213E3B3319F4DC /* Horadric.framework */,
 				DF3FDB75443B142AFB3A2B1BAD234B2C /* Pods_HoradricExample.framework */,
 				B871422838A5BA0E549B90EB4FAD3351 /* Pods_HoradricExampleTests.framework */,
-				83ED4806AF909083D193E0934AEDD896 /* WebPod.bundle */,
+				0102C7C8BB3A96360EC871576B78E9DF /* WebPod.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -303,7 +309,7 @@
 		E451FCD0C304435E421A124EE95373BC /* Horadric */ = {
 			isa = PBXGroup;
 			children = (
-				5817C254EC5C4B8BE49AE7814CCEDDE4 /* Horadric */,
+				AA0D85A5B4AD1F7433FDB25EFC82EC0A /* Horadric */,
 				AF5DB0452A2C965D96655B692A0112DA /* Support Files */,
 			);
 			name = Horadric;
@@ -313,19 +319,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		08E8EB06333534DB9EBB4FBC181E279B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78852D03FC73224659035EA7A7C47B1C /* Horadric-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41BC86DF92F0C4140707FB2BB8841575 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6D01AB4E329AB8E9B23DA987CBB8BCC7 /* Pods-HoradricExampleTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D186438490D1230C0202244BDC00776 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8730A09386FCD2813CCBA5F6F0E5011C /* Horadric-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,12 +357,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				7E47FFBCFF56BE6DFA13850F4EE419FE /* PBXTargetDependency */,
-				D4E4E3456553EECAA5DCBDC35D72067A /* PBXTargetDependency */,
+				2166D80E1A49EA3CFA31305BC5FD7EDF /* PBXTargetDependency */,
+				87CE4F332062ADA86E62B518462A1C7A /* PBXTargetDependency */,
 			);
 			name = "Pods-HoradricExample";
 			productName = "Pods-HoradricExample";
 			productReference = DF3FDB75443B142AFB3A2B1BAD234B2C /* Pods_HoradricExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32D549460BFBECDA54773F5F8D432C8B /* Horadric */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97B243F969D7F2ABC9AF3D62B8A2DC01 /* Build configuration list for PBXNativeTarget "Horadric" */;
+			buildPhases = (
+				FD980E1B8653E0BAF65001DF3D772CD3 /* Sources */,
+				00AB4E63C0FC80E710332F14A2B72265 /* Frameworks */,
+				08E8EB06333534DB9EBB4FBC181E279B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Horadric;
+			productName = Horadric;
+			productReference = 4C4B766B16586473DC213E3B3319F4DC /* Horadric.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4FD9ECD104DE3ED3DBB98B2ED6C8F1C0 /* Pods-HoradricExampleTests */ = {
@@ -370,21 +393,21 @@
 			buildRules = (
 			);
 			dependencies = (
-				2EFFC0CAF526CF3EBD212A94EB2F2BCF /* PBXTargetDependency */,
-				A5485ACDA26CFA29D8AAA9C05B23AB0F /* PBXTargetDependency */,
+				B6FD3DA1739BA91CF5F917D4AEB07AF8 /* PBXTargetDependency */,
+				BDC3A75D37C03C9DAF3D0EDC6891BDB7 /* PBXTargetDependency */,
 			);
 			name = "Pods-HoradricExampleTests";
 			productName = "Pods-HoradricExampleTests";
 			productReference = B871422838A5BA0E549B90EB4FAD3351 /* Pods_HoradricExampleTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		75E9C2ABE25C67B7A4F90B6E35349AE5 /* WebPod-WebPod */ = {
+		D94EFD42D9D748DC334B186F8C803C77 /* WebPod-WebPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA196844F375DC28823734FD9F171518 /* Build configuration list for PBXNativeTarget "WebPod-WebPod" */;
+			buildConfigurationList = 340E0DA7990851854BBA6BC446D47FEB /* Build configuration list for PBXNativeTarget "WebPod-WebPod" */;
 			buildPhases = (
-				06331E830DA6661DDE58F6B90030A90D /* Sources */,
-				7A6DF69447FAA7D733103D6A04A580FA /* Frameworks */,
-				4F152C0C7E999A7F04AA62F231AA8108 /* Resources */,
+				E654A9AC32160E98C930B0D149AD28D8 /* Sources */,
+				D38BE48252D2FCDB5F31884A0DFD3F11 /* Frameworks */,
+				6786506F1541F3962C4C102C5F891013 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -392,25 +415,8 @@
 			);
 			name = "WebPod-WebPod";
 			productName = "WebPod-WebPod";
-			productReference = 83ED4806AF909083D193E0934AEDD896 /* WebPod.bundle */;
+			productReference = 0102C7C8BB3A96360EC871576B78E9DF /* WebPod.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		CBF3A6D3B6BCE48C414C5A78869CD929 /* Horadric */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80742AA00484999E85D0D42CB3497C16 /* Build configuration list for PBXNativeTarget "Horadric" */;
-			buildPhases = (
-				548282C16BC946E6AF7BDCC73F54078D /* Sources */,
-				2B32ADEFD82ADC3EB9EA7ACE9D0E5794 /* Frameworks */,
-				7D186438490D1230C0202244BDC00776 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Horadric;
-			productName = Horadric;
-			productReference = F832DBE42A955473884462082B614154 /* Horadric.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -433,50 +439,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CBF3A6D3B6BCE48C414C5A78869CD929 /* Horadric */,
+				32D549460BFBECDA54773F5F8D432C8B /* Horadric */,
 				2A9D8FB145636A452C0498901F7FDE63 /* Pods-HoradricExample */,
 				4FD9ECD104DE3ED3DBB98B2ED6C8F1C0 /* Pods-HoradricExampleTests */,
-				75E9C2ABE25C67B7A4F90B6E35349AE5 /* WebPod-WebPod */,
+				D94EFD42D9D748DC334B186F8C803C77 /* WebPod-WebPod */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4F152C0C7E999A7F04AA62F231AA8108 /* Resources */ = {
+		6786506F1541F3962C4C102C5F891013 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E26466EC98C5053CBF317B2F714D8C34 /* index.html in Resources */,
-				CEA89BEA73FA7D17F7141C5553D4D55B /* modal.html in Resources */,
-				BA671F8F8663BEE0FFA84351A66A06AD /* styles in Resources */,
+				BDA8148508EABCB7920ACD3230692679 /* index.html in Resources */,
+				700C1739EF30066622389059414D95D1 /* modal.html in Resources */,
+				96890A90BE4CA4125BF114CC5650F545 /* styles in Resources */,
+				C041896FD678449BA2DE7BACEEFB53AF /* subcontent in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		06331E830DA6661DDE58F6B90030A90D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		548282C16BC946E6AF7BDCC73F54078D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37895E0439096110A266AC92858DFD78 /* Horadric-dummy.m in Sources */,
-				EFDA1FB93DEA4260359B3216E439EC83 /* HoradricCloseModalPresentationNavigationPlugin.swift in Sources */,
-				9789EED07A0E5FD39E40561F0CFA945A /* HoradricConfigManager.swift in Sources */,
-				725E57240A6403582F203EE3E124B5D9 /* HoradricNavigationPlugin.swift in Sources */,
-				12754AA667DB81310420526590F2CE86 /* HoradricOpenModalPresentationNavigationPlugin.swift in Sources */,
-				11E3B259C4F54E499C5B02D2F3DA8A7B /* HoradricPushNavigationPlugin.swift in Sources */,
-				B422E92812CBC978EE4F47DAA8981C19 /* HoradricViewController.swift in Sources */,
-				BA84EED692FE1B8E66ECAD60B6661759 /* HoradricWebView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D8DC9AB8B4731081C9592213CECCAA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -493,32 +478,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E654A9AC32160E98C930B0D149AD28D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD980E1B8653E0BAF65001DF3D772CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6E911D93A75B9A70D555EE2E746968 /* Horadric-dummy.m in Sources */,
+				A258879AE0714FD3388374DFCE8AEE63 /* HoradricCloseModalPresentationNavigationPlugin.swift in Sources */,
+				8865565865AFD8CC701D06BDF6BE64B0 /* HoradricConfigManager.swift in Sources */,
+				4002729075435AB682BB6FDB3774A622 /* HoradricNavigationPlugin.swift in Sources */,
+				501F6AE813D6C8B43739634362281006 /* HoradricOpenModalPresentationNavigationPlugin.swift in Sources */,
+				630D41DA40A4127FECC9796A7AEB3CA4 /* HoradricPushNavigationPlugin.swift in Sources */,
+				918216FE4AFBD8782DECCBBBDE0697A6 /* HoradricViewController.swift in Sources */,
+				98D5FF07603C10ED955AD9BD1BE5B58A /* HoradricWebView.swift in Sources */,
+				4487D32973F0930E183ECC77586F5A21 /* NSURL+PathOnly.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2EFFC0CAF526CF3EBD212A94EB2F2BCF /* PBXTargetDependency */ = {
+		2166D80E1A49EA3CFA31305BC5FD7EDF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Horadric;
-			target = CBF3A6D3B6BCE48C414C5A78869CD929 /* Horadric */;
-			targetProxy = 9FCEB7A59CB76D6EC2406D38F90DDD88 /* PBXContainerItemProxy */;
+			target = 32D549460BFBECDA54773F5F8D432C8B /* Horadric */;
+			targetProxy = 2693BBE5D2821839C0FC6B671B5616BD /* PBXContainerItemProxy */;
 		};
-		7E47FFBCFF56BE6DFA13850F4EE419FE /* PBXTargetDependency */ = {
+		87CE4F332062ADA86E62B518462A1C7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WebPod-WebPod";
+			target = D94EFD42D9D748DC334B186F8C803C77 /* WebPod-WebPod */;
+			targetProxy = 365D87C3847C56DDFD8C06207713E4FE /* PBXContainerItemProxy */;
+		};
+		B6FD3DA1739BA91CF5F917D4AEB07AF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Horadric;
-			target = CBF3A6D3B6BCE48C414C5A78869CD929 /* Horadric */;
-			targetProxy = D2A4DEC8A7F8019B6750A7758A5C4F66 /* PBXContainerItemProxy */;
+			target = 32D549460BFBECDA54773F5F8D432C8B /* Horadric */;
+			targetProxy = 5EECEF023585A891BEA2C5B7FA4F33F6 /* PBXContainerItemProxy */;
 		};
-		A5485ACDA26CFA29D8AAA9C05B23AB0F /* PBXTargetDependency */ = {
+		BDC3A75D37C03C9DAF3D0EDC6891BDB7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "WebPod-WebPod";
-			target = 75E9C2ABE25C67B7A4F90B6E35349AE5 /* WebPod-WebPod */;
-			targetProxy = 6EBE911A9EC9E8CC23BF43DC76EFBF86 /* PBXContainerItemProxy */;
-		};
-		D4E4E3456553EECAA5DCBDC35D72067A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "WebPod-WebPod";
-			target = 75E9C2ABE25C67B7A4F90B6E35349AE5 /* WebPod-WebPod */;
-			targetProxy = 5D7F63A765EE477EB18EB4098B48F9DB /* PBXContainerItemProxy */;
+			target = D94EFD42D9D748DC334B186F8C803C77 /* WebPod-WebPod */;
+			targetProxy = 3756071AC879D3EC97F6D70172C5E789 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -552,14 +560,30 @@
 			};
 			name = Release;
 		};
-		2C76DC8DA0CA5EC1A769C52A0B515A13 /* Release */ = {
+		438CC56362EFC14C478C985B91775E57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE84C967AADFE9042549B15E97148C29 /* Horadric-Private.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.0.5;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.0.5;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = WebPod;
+				GCC_PREFIX_HEADER = "Target Support Files/Horadric/Horadric-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Horadric/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Horadric/Horadric.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Horadric;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -597,7 +621,7 @@
 			};
 			name = Release;
 		};
-		58B82828D2E32864E298C426E3D995B4 /* Debug */ = {
+		5687448BCCD66D7DC00941BE60929A1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -638,6 +662,17 @@
 			};
 			name = Debug;
 		};
+		6E3079CF0409F0E7E725640E476D5312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = WebPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		7BE8AE67EE96742DF15065AEF9D426A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7F5218A485C21914C9D1544A35B1E4F3 /* Pods-HoradricExample.release.xcconfig */;
@@ -659,33 +694,6 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods_HoradricExample;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		95F11F82D1561A460AD507DE788B99D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A07C3549FF84FBF3AEF2CBE52A4F11C4 /* Horadric-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.0.4;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.0.4;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Horadric/Horadric-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Horadric/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Horadric/Horadric.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Horadric;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -733,14 +741,14 @@
 			};
 			name = Debug;
 		};
-		D0557D27C5A548EA2F8479E1E86EC557 /* Debug */ = {
+		ADB29E925C151A0FA94782F395880717 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A07C3549FF84FBF3AEF2CBE52A4F11C4 /* Horadric-Private.xcconfig */;
+			baseConfigurationReference = AE84C967AADFE9042549B15E97148C29 /* Horadric-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.0.4;
+				CURRENT_PROJECT_VERSION = 0.0.5;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.0.4;
+				DYLIB_COMPATIBILITY_VERSION = 0.0.5;
 				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -812,11 +820,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80742AA00484999E85D0D42CB3497C16 /* Build configuration list for PBXNativeTarget "Horadric" */ = {
+		340E0DA7990851854BBA6BC446D47FEB /* Build configuration list for PBXNativeTarget "WebPod-WebPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0557D27C5A548EA2F8479E1E86EC557 /* Debug */,
-				95F11F82D1561A460AD507DE788B99D8 /* Release */,
+				5687448BCCD66D7DC00941BE60929A1F /* Debug */,
+				6E3079CF0409F0E7E725640E476D5312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97B243F969D7F2ABC9AF3D62B8A2DC01 /* Build configuration list for PBXNativeTarget "Horadric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB29E925C151A0FA94782F395880717 /* Debug */,
+				438CC56362EFC14C478C985B91775E57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -826,15 +843,6 @@
 			buildConfigurations = (
 				670A99DE1BAA474D8C93C2554CBE2987 /* Debug */,
 				0FA575EFA12185D453F22858BFB28985 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EA196844F375DC28823734FD9F171518 /* Build configuration list for PBXNativeTarget "WebPod-WebPod" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58B82828D2E32864E298C426E3D995B4 /* Debug */,
-				2C76DC8DA0CA5EC1A769C52A0B515A13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E589EE18635BFF60D8DECC1C"
+               BlueprintIdentifier = "91A20780483CAB7AE7297242"
                BuildableName = "Horadric.framework"
                BlueprintName = "Horadric"
                ReferencedContainer = "container:Pods.xcodeproj">

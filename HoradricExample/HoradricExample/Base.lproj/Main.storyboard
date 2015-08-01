@@ -19,7 +19,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="hut-pR-uAJ"/>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="page" value="index"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="file" value="index.html"/>
                     </userDefinedRuntimeAttributes>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -42,7 +42,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5F2-un-Ugv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="909" y="1303"/>
+            <point key="canvasLocation" x="927" y="642"/>
         </scene>
     </scenes>
 </document>
